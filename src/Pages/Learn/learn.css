@@ -21,7 +21,6 @@
     color: #fff;
     text-transform: uppercase;
     font-family: Royal;
-    margin-top: 5vh;
 }
 
 .learnBox span{
@@ -35,7 +34,6 @@
     align-items: center;
     justify-content:space-evenly;
     position: relative;
-    margin-top: 5vh;
 }
 
 .card{
