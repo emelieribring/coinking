@@ -19,25 +19,24 @@
     text-transform: uppercase;
     color: #e1b15d;
     font-size: 6vw;
-    position: absolute;
-    top: 100px;
+    position: relative;
     font-family: Royal;
+    margin: 0;
 }
 
 .headerUnderTitle{
     text-transform: uppercase;
     color: #988f8f;
     font-size: 3vw;
-    position: absolute;
+    position: relative;
     font-weight: 100;
-    top: 200px;
+    margin: 0;
 }
 
 .headerUl{
     color: #fff;
     font-size: 2vw;
-    position: absolute;
-    top: 300px;
+    position: relative;
     font-weight: 100;
 }
 
@@ -47,8 +46,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    position: absolute;
-    top: 500px;
+    position: relative;
     gap: 50px;
 }
 

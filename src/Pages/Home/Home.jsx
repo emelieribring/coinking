@@ -10,6 +10,7 @@ export default function Home() {
     <div className='home'>
         <Navbar/>
         <Header/>
+        <div className='overlap'></div>
     </div>
     <Learn/>
     </>
