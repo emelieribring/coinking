@@ -3,8 +3,12 @@ import './learn.css';
 
 export default function Learn() {
   return (
+    <>
     <div id="section1" className='learn'>
-        <div className="learnBox"><span>How <blockquote></blockquote></span> it<span> <br /> works</span></div>
+        <div className='overlapLearn'></div>    
+        <div className="learnBox">
+            <span>How <blockquote></blockquote></span> it<span> <br /> works</span>
+        </div>
         <div className="cards">
             <div className="card">
                 <p className='step'><span>Step</span>1</p>
@@ -20,5 +24,6 @@ export default function Learn() {
             </div>
         </div>
     </div>
+    </>
   )
 }

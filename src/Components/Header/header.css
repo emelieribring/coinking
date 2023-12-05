@@ -4,15 +4,22 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction: column;
     overflow-x: hidden;
 }
 
+.headerFonts{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    left: 7vw;
+}
+
 .kingImg{
-    position: absolute;
-    width: 550px;
-    left: 60%;
-    top: 23%;
+    position: relative;
+    width: 40vw;
+    left: -3vw;
 }
 
 .headerTitle{
@@ -58,8 +65,8 @@
 }
 
 .learnBtn{
-    width: 200px;
-    height: 70px;
+    width: 15vw;
+    height: 10vh;
     background-color: #e1b15d;
     border: none;
     border-radius: 40px;
@@ -68,4 +75,9 @@
     font-size: 1.5vw;
     text-transform: uppercase;
     font-weight: 800;
+    font-family: Royal;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 }

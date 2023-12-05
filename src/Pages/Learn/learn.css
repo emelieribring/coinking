@@ -21,6 +21,7 @@
     color: #fff;
     text-transform: uppercase;
     font-family: Royal;
+    margin-top: 5vh;
 }
 
 .learnBox span{
@@ -34,10 +35,11 @@
     align-items: center;
     justify-content:space-evenly;
     position: relative;
+    margin-top: 5vh;
 }
 
 .card{
-    width: 250px;
+    width: 18vw;
     height: 45vh;
     background: transparent;
     -webkit-backdrop-filter: blur(10px);
@@ -66,7 +68,7 @@
 }
 
 .card:hover{
-    width: 400px;
+    width: 30vw;
     height: 60vh;
     animation: fadeInFromLeft 1s ease-in forwards;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -101,3 +103,12 @@
       opacity: 1;
     }
   }
+
+
+.overlapLearn{
+    width: 100vw;
+    height: 20vh;
+    background: linear-gradient(rgb(0, 0, 0, 0.9), transparent);
+    position: absolute;
+    z-index: 9;
+}
