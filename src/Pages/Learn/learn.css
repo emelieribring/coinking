@@ -1,0 +1,103 @@
+.learn{
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(rgb(0, 0, 0, 0.9), rgb(0, 0, 0, 0.5)),  url(../../Images/3415615.jpg);
+    display: flex;
+    position: relative;
+    align-items: center;
+    flex-direction: column;
+}
+
+.learnBox{
+    width: 80vw;
+    height: 30vh;
+    border-radius: 20px;
+    background-color: transparent;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 6vw;
+    color: #fff;
+    text-transform: uppercase;
+    font-family: Royal;
+}
+
+.learnBox span{
+    color: #e1b15d;
+}
+
+.cards{
+    width: 83vw;
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content:space-evenly;
+    position: relative;
+}
+
+.card{
+    width: 250px;
+    height: 45vh;
+    background: transparent;
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 10vw;
+    color: #fff;
+    font-family:'Times New Roman', Times, serif;
+    border: 1px solid rgb(255, 255, 255, 0.5);
+    flex-direction: column;
+}
+
+.step{
+    display: flex;
+    flex-direction: column;
+}
+
+.card span{
+    font-size: 2vw;
+    text-transform: uppercase;
+    font-family: Royal;
+    color: #e1b15d;
+}
+
+.card:hover{
+    width: 400px;
+    height: 60vh;
+    animation: fadeInFromLeft 1s ease-in forwards;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.hoverText{
+    visibility: hidden;
+    font-size: 2.5vw;
+    position: absolute;
+    margin: 50px;
+}
+
+.card:hover .hoverText{
+    visibility: visible;
+}
+
+.card:hover .step{
+    visibility: hidden;
+}
+
+@keyframes fadeInFromLeft {
+    0% {
+      transform: translateX(-50px);
+      opacity: 0;
+    }
+    100% {
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }

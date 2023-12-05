@@ -1,0 +1,40 @@
+.navbar{
+    width: 100vw;
+    height: 20vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navBtn{
+    width: 30vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0px;
+}
+
+.logo{
+    position: relative;
+    left: 70px;
+    top: 30px;
+    width: 9vw;
+}
+
+.aboutBtn{
+    width: 100px;
+    height: 50px;
+    font-size: 1.5vw;
+    background: none;
+    border: none;
+    color: #fff;
+}
+
+.loginBtn{
+    width: 140px;
+    height: 60px;
+    font-size: 1.5vw;
+    border: none;
+    background-color: #fff;
+    border-radius: 40px;
+}

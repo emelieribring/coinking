@@ -1,0 +1,66 @@
+.header{
+    width: 100vw;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    overflow-x: hidden;
+}
+
+.kingImg{
+    position: absolute;
+    width: 550px;
+    left: 60%;
+    top: 23%;
+}
+
+.headerTitle{
+    text-transform: uppercase;
+    color: #e1b15d;
+    font-size: 6vw;
+    position: absolute;
+    top: 100px;
+    font-family: Royal;
+}
+
+.headerUnderTitle{
+    text-transform: uppercase;
+    color: #988f8f;
+    font-size: 3vw;
+    position: absolute;
+    font-weight: 100;
+    top: 200px;
+}
+
+.headerUl{
+    color: #fff;
+    font-size: 2vw;
+    position: absolute;
+    top: 300px;
+    font-weight: 100;
+}
+
+.btns{
+    width: 40vw;
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 500px;
+    gap: 50px;
+}
+
+.learnBtn{
+    width: 200px;
+    height: 70px;
+    background-color: #e1b15d;
+    border: none;
+    border-radius: 40px;
+    color: black;
+    position: relative;
+    font-size: 1.5vw;
+    text-transform: uppercase;
+    font-weight: 800;
+}

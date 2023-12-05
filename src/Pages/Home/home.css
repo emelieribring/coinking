@@ -1,0 +1,10 @@
+.home{
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(rgb(0, 0, 0, 0.9), rgb(0, 0, 0, 0.9)),  url(../../Images/3415615.jpg);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    overflow-x: hidden;
+}
