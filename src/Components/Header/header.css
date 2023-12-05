@@ -33,9 +33,16 @@
     margin: 0;
 }
 
-.headerUl{
+.headerSubline{
     color: #fff;
     font-size: 2vw;
+    position: relative;
+    font-weight: 100;
+}
+
+.secondSubline{
+    color: #fff;
+    font-size: 1.5vw;
     position: relative;
     font-weight: 100;
 }
