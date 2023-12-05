@@ -12,7 +12,7 @@
     height: 50vh;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     position: relative;
     left: 7vw;
@@ -90,4 +90,5 @@
     justify-content: center;
     align-items: center;
     text-align: center;
+    cursor: pointer;
 }
