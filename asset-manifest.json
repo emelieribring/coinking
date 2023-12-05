@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/coinking/static/css/main.4e2821d9.css",
+    "main.css": "/coinking/static/css/main.78738d89.css",
     "main.js": "/coinking/static/js/main.2b3351bd.js",
     "static/js/787.3568bd66.chunk.js": "/coinking/static/js/787.3568bd66.chunk.js",
     "static/media/coinking.png": "/coinking/static/media/coinking.64c2c3ef5ca67525e00f.png",
@@ -8,12 +8,12 @@
     "static/media/2.png": "/coinking/static/media/2.caaac11993d3196e0645.png",
     "static/media/RoyalKing-Free.ttf": "/coinking/static/media/RoyalKing-Free.590a94bb617b4ec76ef8.ttf",
     "index.html": "/coinking/index.html",
-    "main.4e2821d9.css.map": "/coinking/static/css/main.4e2821d9.css.map",
+    "main.78738d89.css.map": "/coinking/static/css/main.78738d89.css.map",
     "main.2b3351bd.js.map": "/coinking/static/js/main.2b3351bd.js.map",
     "787.3568bd66.chunk.js.map": "/coinking/static/js/787.3568bd66.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.4e2821d9.css",
+    "static/css/main.78738d89.css",
     "static/js/main.2b3351bd.js"
   ]
 }
