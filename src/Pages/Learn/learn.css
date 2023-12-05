@@ -1,6 +1,6 @@
 .learn{
     width: 100vw;
-    height: 100vh;
+    height: 130vh;
     background: linear-gradient(rgb(0, 0, 0, 0.9), rgb(0, 0, 0, 0.5)),  url(../../Images/3415615.jpg);
     display: flex;
     position: relative;
@@ -10,7 +10,7 @@
 
 .learnBox{
     width: 80vw;
-    height: 30vh;
+    height: 40vh;
     border-radius: 20px;
     background-color: transparent;
     position: relative;
@@ -21,6 +21,7 @@
     color: #fff;
     text-transform: uppercase;
     font-family: Royal;
+    z-index: 9;
 }
 
 .learnBox span{

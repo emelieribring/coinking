@@ -7,10 +7,10 @@ export default function Header() {
   return (
     <div className='header'>
         <div className='headerFonts'>
-          <div>
+          <div className='headerTitleDiv'>
             <h1 className='headerTitle'>Coin Kings</h1>
           </div>
-          <div>
+          <div className='headerUnderTitleDiv'>
             <h3 className='headerUnderTitle'>Know your Coins?</h3>
           </div>
           <div>

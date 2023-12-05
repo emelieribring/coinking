@@ -7,7 +7,7 @@ export default function Learn() {
     <div id="section1" className='learn'>
         <div className='overlapLearn'></div>    
         <div className="learnBox">
-            <span>How <blockquote></blockquote></span> it<span> <br /> works</span>
+            <span>How<blockquote/><br /></span> it<span> <br /> works</span>
         </div>
         <div className="cards">
             <div className="card">

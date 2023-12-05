@@ -24,12 +24,20 @@
     left: -3vw;
 }
 
+.headerTitleDiv{
+    margin: 0;
+}
+
 .headerTitle{
     text-transform: uppercase;
     color: #e1b15d;
     font-size: 6vw;
     position: relative;
     font-family: Royal;
+    margin: 0;
+}
+
+.headerUnderTitleDiv{
     margin: 0;
 }
 
